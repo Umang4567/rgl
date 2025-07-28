@@ -1,0 +1,174 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Organization",
+      "@id": "https://reallygoodleads.xyz/#organization",
+      "name": "Really Good Leads",
+      "alternateName": "RGL",
+      "url": "https://reallygoodleads.xyz",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://reallygoodleads.xyz/logo.png",
+        "width": 300,
+        "height": 100
+      },
+      "image": "https://reallygoodleads.xyz/favicon_io/android-chrome-512x512.png",
+      "description": "Professional lead generation for roofing, HVAC, moving, and solar companies. Get exclusive, high-quality leads with 21-22% conversion rates.",
+      "foundingDate": "2020",
+      "contactPoint": [
+        {
+          "@type": "ContactPoint",
+          "telephone": "+1-321-408-7274",
+          "contactType": "customer service",
+          "areaServed": "US",
+          "availableLanguage": "en"
+        },
+        {
+          "@type": "ContactPoint",
+          "email": "contact@reallygoodleads.xyz",
+          "contactType": "customer service",
+          "areaServed": "US"
+        }
+      ],
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "310 N Wickham Rd Unit 134",
+        "addressLocality": "Melbourne",
+        "addressRegion": "FL",
+        "postalCode": "32935",
+        "addressCountry": "US"
+      },
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": 28.0836,
+        "longitude": -80.6081
+      },
+      "openingHoursSpecification": [
+        {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
+          "opens": "08:00",
+          "closes": "18:00"
+        }
+      ],
+      "sameAs": [
+        "https://www.linkedin.com/company/really-good-leads",
+        "https://twitter.com/reallygoodleads",
+        "https://www.facebook.com/reallygoodleads"
+      ],
+      "serviceType": [
+        "Lead Generation",
+        "Digital Marketing",
+        "Call Center Services",
+        "SEO Services",
+        "PPC Management"
+      ],
+      "areaServed": {
+        "@type": "Country",
+        "name": "United States"
+      },
+      "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "4.3",
+        "ratingCount": "150",
+        "bestRating": "5",
+        "worstRating": "1"
+      }
+    },
+    {
+      "@type": "WebSite",
+      "@id": "https://reallygoodleads.xyz/#website",
+      "url": "https://reallygoodleads.xyz",
+      "name": "Really Good Leads",
+      "description": "Professional lead generation services for roofing, HVAC, moving, and solar companies",
+      "publisher": {
+        "@id": "https://reallygoodleads.xyz/#organization"
+      },
+      "potentialAction": [
+        {
+          "@type": "SearchAction",
+          "target": "https://reallygoodleads.xyz/search?q={search_term_string}",
+          "query-input": "required name=search_term_string"
+        }
+      ]
+    },
+    {
+      "@type": "Service",
+      "name": "Roofing Lead Generation",
+      "provider": {
+        "@id": "https://reallygoodleads.xyz/#organization"
+      },
+      "description": "Exclusive roofing leads with 21% conversion rate for roofing contractors",
+      "serviceType": "Lead Generation",
+      "areaServed": {
+        "@type": "Country",
+        "name": "United States"
+      },
+      "offers": {
+        "@type": "Offer",
+        "price": "75",
+        "priceCurrency": "USD",
+        "priceSpecification": {
+          "@type": "UnitPriceSpecification",
+          "price": "75",
+          "priceCurrency": "USD",
+          "unitText": "per lead"
+        }
+      }
+    },
+    {
+      "@type": "Service",
+      "name": "HVAC Lead Generation",
+      "provider": {
+        "@id": "https://reallygoodleads.xyz/#organization"
+      },
+      "description": "Quality HVAC leads with 22% conversion rate for heating and cooling contractors",
+      "serviceType": "Lead Generation",
+      "areaServed": {
+        "@type": "Country",
+        "name": "United States"
+      },
+      "offers": {
+        "@type": "Offer",
+        "price": "100",
+        "priceCurrency": "USD",
+        "priceSpecification": {
+          "@type": "UnitPriceSpecification",
+          "price": "100",
+          "priceCurrency": "USD",
+          "unitText": "per lead"
+        }
+      }
+    },
+    {
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "How quickly can I start receiving leads?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Most clients start receiving leads within 24-48 hours of setup completion. Our team works quickly to configure your account and begin lead delivery."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Are the leads really exclusive?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes, absolutely. Every lead we deliver is 100% exclusive to your business and is never shared or resold to competitors in your market."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What information do I get with each lead?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Each lead includes complete contact information, project details, timeline, budget range, and any special requirements or notes from our qualification process."
+          }
+        }
+      ]
+    }
+  ]
+} 
